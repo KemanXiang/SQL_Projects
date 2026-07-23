@@ -3,6 +3,9 @@
 #2.Update a View to combine two or more tables in meaningful ways
 #3.Drop a created View
 
+#Introduction:
+#In SQL, a view is an alternative way of representing data that exists in one or more tables. Just like a real table, it contains rows and columns. The fields in a view are fields from one or more real tables in the database. Though views can be queried like a table, views are dynamic; only the definition of the view is stored, not the data.
+
 DROP TABLE IF EXISTS EMPLOYEES;
 DROP TABLE IF EXISTS JOB_HISTORY;
 DROP TABLE IF EXISTS JOBS;
